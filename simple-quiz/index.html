@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>JavaScript Interactive Quiz</title>
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+
+    <body>
+        <header>
+            <h1>JavaScript Interactive Quiz</h1>
+            <p>
+                Author: <a href="https://github.com/tapiwamla/100-days-of-javascript/tree/main/quiz-app">Tapiwanashe Mlambo</a>
+            </p>
+        </header>
+
+        <main>
+            <section class="question">
+                <h2>Question 1</h2>
+                <h3>Which of the following is incorrect syntax for declaring a variable in JavaScript?</h3>
+                <ol type="A">
+                    <li>var name = "John Doe";</li>
+                    <li>const name = "John Doe";</li>
+                    <li>let name = "John Doe";</li>
+                    <li>string name = "John Doe";</li>
+                </ol>
+                <button onclick="reveal()"id="1"class="btn">Reveal Answer</button>
+                <p class="correct-answer">Correct Answer: </p>
+            </section>
+
+            <section class="question">
+                <h2>Question 2</h2>
+                <h3>How can you access the element with the ID "myElement" in JavaScript?</h3>
+                <ol type="A">
+                  <li>getElementById("myElement");</li>
+                  <li>document.getElementById("myElement");</li>
+                  <li>$("myElement");</li>
+                  <li>#myElement;</li>
+                </ol>
+                <button onclick="revealOne()" id="2" class="btn">Reveal Answer</button>
+                <p class="correct-answer">Correct Answer: </p>
+              </section>
+              
+              <section class="question">
+                <h2>Question 3</h2>
+                <h3>What is the difference between `==` and `===` in JavaScript?</h3>
+                <ol type="A">
+                  <li>They are both the same and compare both the value and the type of two operands.</li>
+                  <li>`==` compares only the value of two operands, while `===` compares both the value and the type.</li>
+                  <li>`==` is used for strict comparison, while `===` is used for loose comparison.</li>
+                  <li>There is no difference between them.</li>
+                </ol>
+                <button onclick="revealTwo()" id="3" class="btn">Reveal Answer</button>
+                <p class="correct-answer">Correct Answer: </p>
+              </section>
+              
+              <section class="question">
+                <h2>Question 4</h2>
+                <h3>How can you define a function in JavaScript?</h3>
+                <ol type="A">
+                  <li>function myFunction() { ... }</li>
+                  <li>const myFunction = () => { ... }</li>
+                  <li>let myFunction = function() { ... }</li>
+                  <li>All of the above</li>
+                </ol>
+                <button onclick="revealThree()" id="4" class="btn">Reveal Answer</button>
+                <p class="correct-answer">Correct Answer: </p>
+              </section>
+              
+              <section class="question" id="5">
+                <h2>Question 5</h2>
+                <h3>What is the purpose of the `this` keyword in JavaScript?</h3>
+                <ol type="A">
+                  <li>It refers to the global object.</li>
+                  <li>It refers to the current function object.</li>
+                  <li>It refers to the current object.</li>
+                  <li>It can refer to different objects depending on the context.</li>
+                </ol>
+                <button onclick="revealFour()" id="4" class="btn">Reveal Answer</button>
+                <p class="correct-answer">Correct Answer: </p>
+              </section>
+              
+              <script src="./index.js"></script>
+        </main>
+
+        <footer>
+            <p>Copyleft &copy; Tapiwanashe Mlambo</p>
+        </footer>
+    </body>
+</html>
