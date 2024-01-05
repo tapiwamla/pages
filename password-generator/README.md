@@ -1,7 +1,5 @@
 # javascript-password-generator
 
-[#100DAYSOFJAVASCRIPT: DAY 9](https://github.com/topics/100daysofjavascript)
-
 This is a simple quiz app created using HTML, CSS, and JavaScript. It is designed for learning purposes and showcases the use the following concepts:
 
 - arrays
