@@ -183,6 +183,14 @@ label {
   margin-top: 2rem;
 }
 
+.forgot {
+  color: purple !important;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
 /*  For the image carousel  */
 .carousel {
   position: absolute;
