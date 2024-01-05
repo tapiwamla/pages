@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AzGard Technical Test</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="main-box">
+        <div class="inner-box">
+          <div class="form-container">
+            <form action="./index.html" autocomplete="off">
+              <div class="heading">
+                <h2>Welcome Back!</h2>
+                <h6>Please sign in to continue.</h6>
+              </div>
+
+              <!-- Username -->
+              <div>
+                <div class="input-container">
+                  <input
+                    type="text"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Username</label>
+                </div>
+
+                <!-- Password -->
+                <div class="input-container">
+                  <input
+                    type="password"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Password</label>
+                </div>
+
+                <input type="submit" value="Sign In" class="primary-signin" />
+
+                <p class="text" style="text-align: center;">
+                  Or
+                </p>
+
+                <!-- Alternative Login -->
+                <div class="alternative-login">
+                  <button>
+                    <img src="https://www.svgrepo.com/show/475656/google-color.svg" loading="lazy" alt="Google Logo">
+                    <span>Signin with Google</span>
+                  </button>
+  
+                  <button>
+                    <img src="https://www.svgrepo.com/show/475647/facebook-color.svg" loading="lazy" alt="Facebook Logo">
+                    <span>Signin with Facebook</span>
+                  </button>
+
+                </div>        
+
+                <p class="text foot-matter"> Forgotten your password? </p>
+
+                <p class="text foot-matter">Don't have an account yet? Go to <a href="#">Registration</a></p>
+              </div>
+            </form>
+          </div>
+
+          <div class="carousel">
+            <!-- Logo -->
+            <div class="logo">
+              <img src="./assets/logo.png" alt="smartPOS" />
+              <h4>SmartPOS</h4>
+            </div>
+
+            <!-- Image Slider -->
+            <div class="image-container">
+              <img src="./assets/first.png" class="image slide-1 show" alt="" />
+              <img src="./assets/second.png" class="image slide-2" alt="" />
+              <img src="./assets/third.png" class="image slide-3" alt="" />
+            </div>
+
+            <!-- Text Slider -->
+            <div class="text-slider">
+              <div class="text-wrap">
+                <div class="text-group">
+                  <h2>Manage sales and inventory</h2>
+                  <h2>Manage your transactions</h2>
+                  <h2>Optimize cashflows</h2>
+                </div>
+              </div>
+
+              <div class="navigation">
+                <span class="active" data-value="1"></span>
+                <span data-value="2"></span>
+                <span data-value="3"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Javascript file -->
+    <script src="./index.js"></script>
+  </body>
+</html>
