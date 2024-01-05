@@ -12,5 +12,5 @@ This is a simple quiz app created using HTML, CSS, and JavaScript. It is designe
 - Math object
 - return statements
 
-You can see the live demo [here](https://tapiwamla.me/password-generator/).
+You can see the live demo [here](https://tapiwamla.me/javascript/password-generator/).
 Enjoy 🚀
