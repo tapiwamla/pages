@@ -1,4 +1,4 @@
-# javascript
+# pages
 
 A collection of all my #JavaScript projects. See the respective demos for each:
 - [Basketball Scoreboard](https://tapiwamla.github.io/javascript/basketball-scoreboard)
